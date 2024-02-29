@@ -7,11 +7,11 @@ export default defineConfig({
     // 直接使用源码
     alias: [
       {
-        find: 'linzhe-tools',
-        replacement: join(__dirname, '..', 'packages/linzhe-tools/index.ts'),
+        find: 'cehsiTools',
+        replacement: join(__dirname, '..', 'packages/cehsiTools/index.ts'),
       },
       {
-        find: /^@linzhe-tools\/(.+)$/,
+        find: /^@cehsiTools\/(.+)$/,
         replacement: join(__dirname, '..', 'packages', '$1', 'index.ts'),
       },
     ],

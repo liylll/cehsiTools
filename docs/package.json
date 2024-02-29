@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview"
   },
   "keywords": [],
-  "author": "linzhe-tools",
+  "author": "cehsiTools",
   "license": "ISC",
   "devDependencies": {
     "markdown-it": "^14.0.0",

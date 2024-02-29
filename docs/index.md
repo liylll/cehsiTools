@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'linzhe-tools docs'
+  name: 'cehsiTools docs'
   tagline: 🚀 基于vue3实现一些简单的组件
   image:
     src: /logo.svg

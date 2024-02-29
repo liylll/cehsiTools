@@ -11,11 +11,11 @@ async function main() {
   try {
     await copy(
       resolve(__dirname, '../packages/components/dist/style'),
-      resolve(__dirname, '../packages/linzhe-tools/dist/style')
+      resolve(__dirname, '../packages/cehsiTools/dist/style')
     )
     console.log(chalk.green('✨ style.css build successfully completed!'))
 
-    const packagesList = ['linzhe-tools', 'components', 'shared']
+    const packagesList = ['cehsiTools', 'components', 'shared']
     async function copyDts(packageName: string) {
       for (const file of await fs.readdir(
         resolve(__dirname, `../dist/packages/${packageName}/`)
